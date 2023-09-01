@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1>
+    <title>loja</title>
+    <style>
+        body {
+            background-image: url(imagens/pexels-rafael-guajardo-604684.jpg);
+        color: silver;
+        }
+        .forma_do_carro {
+           
+            width: 300px;
+            margin: 0 auto;
+        }
+        .forma_do_carro label {
+            display:silver;
+            margin-bottom: 10px;
+        }
+        .forma_do_carro input[type="text"] {
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .forma_do_carro input[type="enviar"] {
+            color: silver;
+            margin-top: 10px;
+        }
+        
+        .approved-button {
+            background-color:black;
+            color: silver;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .approved-button:hover {
+            background-color: rgb(10, 218, 10);
+        }
+    </style>
+</head>
+</h1>
+<body>
+    <h1> Venda do Carros</h1>
+    <form class="car-form">
+        
+        <label for="Marca">Marca:</label>
+        <input type="text" id="make" name="make">
+        
+        <label for="modelo">Modelo:</label>
+        <input type="text" id="model" name="model">
+        
+        <label for="ano">Ano:</label>
+        <input type="text" id="year" name="year">
+        
+        <label for="preço">Preço:</label>
+        <input type="text" id="preço" name="preço">
+        
+        
+        <button class="approved-button">Aprovar venda</button>
+    </form>
+</body>
+</html>
